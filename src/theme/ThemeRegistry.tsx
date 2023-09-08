@@ -1,6 +1,6 @@
-import { ThemeProvider } from '@emotion/react';
-import { CssBaseline } from '@mui/material';
-import { NextAppDirEmotionCacheProvider, responsiveTheme } from '.';
+import { NextAppDirEmotionCacheProvider } from '@/app/EmotionCache';
+import { CssBaseline, ThemeProvider } from '@mui/material';
+import { responsiveTheme } from '.';
 
 export function ThemeRegistry({ children }: { children: React.ReactNode }) {
   return (
